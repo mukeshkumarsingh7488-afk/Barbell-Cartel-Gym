@@ -14,7 +14,7 @@ export const BUSINESS = {
   openingHours: "Monday – Sunday | 5:00 AM – 11:00 PM",
 
   rating: "4.9",
-  totalReviews: "773",
+  totalReviews: "763",
 
   theme: {
     primary: "#ff1f1f",
@@ -150,7 +150,7 @@ export const BUSINESS = {
   testimonials: {
     eyebrow: "Reviews",
     title: "Trusted by fitness lovers in Whitefield.",
-    subtitle: "Rated 4.9 stars from 773 Google reviews.",
+    subtitle: "Rated 4.9 stars from 763 Google reviews.",
     reviews: [
       { name: "Gym Member", text: "Great atmosphere, powerful setup and a motivating place to train consistently." },
       { name: "Fitness Enthusiast", text: "Perfect gym for strength training, cardio and serious body transformation." },

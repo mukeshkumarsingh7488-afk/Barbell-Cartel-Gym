@@ -242,7 +242,7 @@ Whitefield, Bengaluru
 
 **Google Reviews**
 
-773+
+763+
 
 ---
 
