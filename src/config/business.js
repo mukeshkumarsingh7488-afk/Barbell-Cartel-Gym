@@ -59,7 +59,7 @@ export const BUSINESS = {
     secondaryButton: "Call Gym",
     stats: [
       { value: "4.9★", label: "Google Rating" },
-      { value: "773+", label: "Reviews" },
+      { value: "763+", label: "Reviews" },
       { value: "7 Days", label: "Open Weekly" },
     ],
   },
