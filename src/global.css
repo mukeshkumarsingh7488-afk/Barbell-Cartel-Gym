@@ -1,0 +1,139 @@
+/* ==========================================
+   BR30 Web Services
+   Global Styles
+========================================== */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+:root {
+  --bg: #050505;
+  --surface: #101010;
+  --surface-2: #171717;
+
+  --primary: #ff1f1f;
+  --secondary: #d4af37;
+
+  --text: #ffffff;
+  --muted: #b7b7b7;
+
+  --border: rgba(255, 255, 255, 0.08);
+
+  --container: 1280px;
+
+  --shadow: 0 12px 40px rgba(0, 0, 0, 0.45);
+
+  --transition: 0.35s ease;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+
+  font-family:
+    Inter,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+
+  line-height: 1.6;
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+
+  -webkit-user-drag: none;
+  user-select: none;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: transparent;
+}
+
+input,
+textarea,
+select {
+  user-select: text;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+section {
+  position: relative;
+}
+
+.container {
+  width: min(92%, var(--container));
+  margin-inline: auto;
+}
+
+::selection {
+  background: var(--primary);
+  color: #fff;
+}
+
+::-webkit-scrollbar {
+  width: 9px;
+}
+
+::-webkit-scrollbar-track {
+  background: #090909;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary);
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ff4747;
+}
